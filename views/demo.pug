@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    | #{title}
+  </title>
+  link(href='../static/style.css', rel='stylesheet')
+</head>
+
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+    <a href="#">Services</a>
+  </nav>
+  <h1>
+    | #{message}
+  </h1>
+  <h2>
+    | #{content}
+  </h2>
+  <div id="container">
+    <form method="post">
+      <input type="text" name="name" id="name" placeholder="enter your name" />
+      <input type="text" name="lname" id="lname" placeholder="enter your lastname" />
+      <input type="text" name="gender" id="gender" placeholder="enter your gender" />
+      <textarea name="address" rows="5" cols="30" id="address" placeholder="enter Address"></textarea>
+      <button value="submit">submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
